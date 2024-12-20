@@ -1,0 +1,18 @@
+ol{
+    background-color: lightblue;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+}
+[data-available="true"]{
+    background-color: green;
+}
+[data-available="false"]{
+    background-color: red;
+}
+[data-price="high"]{
+    font-weight: bold;
+}
+[data-category="Electronics"]{
+    list-style-type: upper-alpha;
+}
